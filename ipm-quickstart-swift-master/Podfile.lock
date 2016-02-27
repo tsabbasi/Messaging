@@ -1,0 +1,25 @@
+PODS:
+  - SlackTextViewController (1.9.1)
+  - SnapKit (0.19.1)
+  - TwilioCommon (0.1.10)
+  - TwilioIPMessagingClient (0.13.5)
+
+DEPENDENCIES:
+  - SlackTextViewController
+  - SnapKit
+  - TwilioCommon (from `https://media.twiliocdn.com/sdk/rtc/ios/common/v0.1/TwilioCommon.podspec`)
+  - TwilioIPMessagingClient (from `https://media.twiliocdn.com/sdk/rtc/ios/ip-messaging/v0.13/TwilioIPMessagingClient.podspec`)
+
+EXTERNAL SOURCES:
+  TwilioCommon:
+    :podspec: https://media.twiliocdn.com/sdk/rtc/ios/common/v0.1/TwilioCommon.podspec
+  TwilioIPMessagingClient:
+    :podspec: https://media.twiliocdn.com/sdk/rtc/ios/ip-messaging/v0.13/TwilioIPMessagingClient.podspec
+
+SPEC CHECKSUMS:
+  SlackTextViewController: 6b0d1030c53937226fc5358f217af2a34fc211cf
+  SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
+  TwilioCommon: 0c1b601770d3431453a979e8a0794313e99f9317
+  TwilioIPMessagingClient: 97f2f8aa7fdcab675db51a0d77850492a3ba63f1
+
+COCOAPODS: 0.39.0
