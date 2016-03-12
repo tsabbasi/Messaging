@@ -1,5 +1,0 @@
-use_frameworks!
-pod 'SlackTextViewController'
-pod 'SnapKit'
-pod 'PubNub'
-pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'

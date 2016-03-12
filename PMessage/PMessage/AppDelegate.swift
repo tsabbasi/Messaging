@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PMessage
 //
-//  Created by Taha Abbasi on 2/27/16.
-//  Copyright © 2016 Web N App. All rights reserved.
+//  Created by Tuba Abbasi on 3/6/16.
+//  Copyright © 2016 Tuba Abbasi. All rights reserved.
 //
 
 import UIKit

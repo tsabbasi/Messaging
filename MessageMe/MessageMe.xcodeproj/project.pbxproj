@@ -7,114 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E1F13C81C83EFB500F64451 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F13C71C83EFB500F64451 /* MessageTableViewCell.swift */; };
-		5E1F13CD1C845F7E00F64451 /* PushTone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E1F13CC1C845F6900F64451 /* PushTone.caf */; };
-		5E3481261C83E24F00B6812B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3481251C83E24F00B6812B /* AppDelegate.swift */; };
-		5E3481281C83E24F00B6812B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3481271C83E24F00B6812B /* ViewController.swift */; };
-		5E34812B1C83E24F00B6812B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3481291C83E24F00B6812B /* Main.storyboard */; };
-		5E34812D1C83E24F00B6812B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E34812C1C83E24F00B6812B /* Assets.xcassets */; };
-		5E3481301C83E24F00B6812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E34812E1C83E24F00B6812B /* LaunchScreen.storyboard */; };
-		8DB6756C9676C5AB04616F41 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E290B2474E2C8FF9755118ED /* Pods.framework */; };
+		C4BFC42E1C8A41140052F9A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFC42D1C8A41140052F9A9 /* AppDelegate.swift */; };
+		C4BFC4301C8A41140052F9A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFC42F1C8A41140052F9A9 /* ViewController.swift */; };
+		C4BFC4331C8A41140052F9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BFC4311C8A41140052F9A9 /* Main.storyboard */; };
+		C4BFC4351C8A41140052F9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BFC4341C8A41140052F9A9 /* Assets.xcassets */; };
+		C4BFC4381C8A41140052F9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BFC4361C8A41140052F9A9 /* LaunchScreen.storyboard */; };
+		C4BFC4431C8A41140052F9A9 /* MessageMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFC4421C8A41140052F9A9 /* MessageMeTests.swift */; };
+		C4BFC44E1C8A41140052F9A9 /* MessageMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFC44D1C8A41140052F9A9 /* MessageMeUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C4BFC43F1C8A41140052F9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BFC4221C8A41140052F9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BFC4291C8A41140052F9A9;
+			remoteInfo = MessageMe;
+		};
+		C4BFC44A1C8A41140052F9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BFC4221C8A41140052F9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BFC4291C8A41140052F9A9;
+			remoteInfo = MessageMe;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		5E1F13C71C83EFB500F64451 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
-		5E1F13CC1C845F6900F64451 /* PushTone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PushTone.caf; sourceTree = "<group>"; };
-		5E3481221C83E24F00B6812B /* MessageMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3481251C83E24F00B6812B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E3481271C83E24F00B6812B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E34812A1C83E24F00B6812B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E34812C1C83E24F00B6812B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E34812F1C83E24F00B6812B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5E3481311C83E24F00B6812B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82361FD3A9EA0EC2B29685A9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		960ECE61A1C9C349D8F34135 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E290B2474E2C8FF9755118ED /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BFC42A1C8A41140052F9A9 /* MessageMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BFC42D1C8A41140052F9A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4BFC42F1C8A41140052F9A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4BFC4321C8A41140052F9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4BFC4341C8A41140052F9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4BFC4371C8A41140052F9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4BFC4391C8A41140052F9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BFC43E1C8A41140052F9A9 /* MessageMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BFC4421C8A41140052F9A9 /* MessageMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMeTests.swift; sourceTree = "<group>"; };
+		C4BFC4441C8A41140052F9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BFC4491C8A41140052F9A9 /* MessageMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BFC44D1C8A41140052F9A9 /* MessageMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMeUITests.swift; sourceTree = "<group>"; };
+		C4BFC44F1C8A41140052F9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E34811F1C83E24F00B6812B /* Frameworks */ = {
+		C4BFC4271C8A41140052F9A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB6756C9676C5AB04616F41 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BFC43B1C8A41140052F9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BFC4461C8A41140052F9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5812D73EB0BA4734D49DD7A9 /* Pods */ = {
+		C4BFC4211C8A41140052F9A9 = {
 			isa = PBXGroup;
 			children = (
-				960ECE61A1C9C349D8F34135 /* Pods.debug.xcconfig */,
-				82361FD3A9EA0EC2B29685A9 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5E1F13CB1C845F5800F64451 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				5E1F13CC1C845F6900F64451 /* PushTone.caf */,
-			);
-			name = Sounds;
-			sourceTree = "<group>";
-		};
-		5E3481191C83E24F00B6812B = {
-			isa = PBXGroup;
-			children = (
-				5E3481241C83E24F00B6812B /* MessageMe */,
-				5E3481231C83E24F00B6812B /* Products */,
-				5812D73EB0BA4734D49DD7A9 /* Pods */,
-				92596B59DC9BAF10236A4D29 /* Frameworks */,
+				C4BFC42C1C8A41140052F9A9 /* MessageMe */,
+				C4BFC4411C8A41140052F9A9 /* MessageMeTests */,
+				C4BFC44C1C8A41140052F9A9 /* MessageMeUITests */,
+				C4BFC42B1C8A41140052F9A9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5E3481231C83E24F00B6812B /* Products */ = {
+		C4BFC42B1C8A41140052F9A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E3481221C83E24F00B6812B /* MessageMe.app */,
+				C4BFC42A1C8A41140052F9A9 /* MessageMe.app */,
+				C4BFC43E1C8A41140052F9A9 /* MessageMeTests.xctest */,
+				C4BFC4491C8A41140052F9A9 /* MessageMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E3481241C83E24F00B6812B /* MessageMe */ = {
+		C4BFC42C1C8A41140052F9A9 /* MessageMe */ = {
 			isa = PBXGroup;
 			children = (
-				5E3481251C83E24F00B6812B /* AppDelegate.swift */,
-				5E3481271C83E24F00B6812B /* ViewController.swift */,
-				5E1F13C71C83EFB500F64451 /* MessageTableViewCell.swift */,
-				5E3481291C83E24F00B6812B /* Main.storyboard */,
-				5E1F13CB1C845F5800F64451 /* Sounds */,
-				5E34812C1C83E24F00B6812B /* Assets.xcassets */,
-				5E34812E1C83E24F00B6812B /* LaunchScreen.storyboard */,
-				5E3481311C83E24F00B6812B /* Info.plist */,
+				C4BFC42D1C8A41140052F9A9 /* AppDelegate.swift */,
+				C4BFC42F1C8A41140052F9A9 /* ViewController.swift */,
+				C4BFC4311C8A41140052F9A9 /* Main.storyboard */,
+				C4BFC4341C8A41140052F9A9 /* Assets.xcassets */,
+				C4BFC4361C8A41140052F9A9 /* LaunchScreen.storyboard */,
+				C4BFC4391C8A41140052F9A9 /* Info.plist */,
 			);
 			path = MessageMe;
 			sourceTree = "<group>";
 		};
-		92596B59DC9BAF10236A4D29 /* Frameworks */ = {
+		C4BFC4411C8A41140052F9A9 /* MessageMeTests */ = {
 			isa = PBXGroup;
 			children = (
-				E290B2474E2C8FF9755118ED /* Pods.framework */,
+				C4BFC4421C8A41140052F9A9 /* MessageMeTests.swift */,
+				C4BFC4441C8A41140052F9A9 /* Info.plist */,
 			);
-			name = Frameworks;
+			path = MessageMeTests;
+			sourceTree = "<group>";
+		};
+		C4BFC44C1C8A41140052F9A9 /* MessageMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4BFC44D1C8A41140052F9A9 /* MessageMeUITests.swift */,
+				C4BFC44F1C8A41140052F9A9 /* Info.plist */,
+			);
+			path = MessageMeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E3481211C83E24F00B6812B /* MessageMe */ = {
+		C4BFC4291C8A41140052F9A9 /* MessageMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3481341C83E24F00B6812B /* Build configuration list for PBXNativeTarget "MessageMe" */;
+			buildConfigurationList = C4BFC4521C8A41140052F9A9 /* Build configuration list for PBXNativeTarget "MessageMe" */;
 			buildPhases = (
-				36FCBD511F8E1F4340A3EB19 /* Check Pods Manifest.lock */,
-				5E34811E1C83E24F00B6812B /* Sources */,
-				5E34811F1C83E24F00B6812B /* Frameworks */,
-				5E3481201C83E24F00B6812B /* Resources */,
-				91AE2403325E4F431C75ABA6 /* Embed Pods Frameworks */,
-				F8AABA93B7A6E5E4678F3BEA /* Copy Pods Resources */,
+				C4BFC4261C8A41140052F9A9 /* Sources */,
+				C4BFC4271C8A41140052F9A9 /* Frameworks */,
+				C4BFC4281C8A41140052F9A9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -122,31 +142,72 @@
 			);
 			name = MessageMe;
 			productName = MessageMe;
-			productReference = 5E3481221C83E24F00B6812B /* MessageMe.app */;
+			productReference = C4BFC42A1C8A41140052F9A9 /* MessageMe.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C4BFC43D1C8A41140052F9A9 /* MessageMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BFC4551C8A41140052F9A9 /* Build configuration list for PBXNativeTarget "MessageMeTests" */;
+			buildPhases = (
+				C4BFC43A1C8A41140052F9A9 /* Sources */,
+				C4BFC43B1C8A41140052F9A9 /* Frameworks */,
+				C4BFC43C1C8A41140052F9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BFC4401C8A41140052F9A9 /* PBXTargetDependency */,
+			);
+			name = MessageMeTests;
+			productName = MessageMeTests;
+			productReference = C4BFC43E1C8A41140052F9A9 /* MessageMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4BFC4481C8A41140052F9A9 /* MessageMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BFC4581C8A41140052F9A9 /* Build configuration list for PBXNativeTarget "MessageMeUITests" */;
+			buildPhases = (
+				C4BFC4451C8A41140052F9A9 /* Sources */,
+				C4BFC4461C8A41140052F9A9 /* Frameworks */,
+				C4BFC4471C8A41140052F9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BFC44B1C8A41140052F9A9 /* PBXTargetDependency */,
+			);
+			name = MessageMeUITests;
+			productName = MessageMeUITests;
+			productReference = C4BFC4491C8A41140052F9A9 /* MessageMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5E34811A1C83E24F00B6812B /* Project object */ = {
+		C4BFC4221C8A41140052F9A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Web N App";
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tuba Abbasi";
 				TargetAttributes = {
-					5E3481211C83E24F00B6812B = {
-						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = BDVAQUWX8W;
-						SystemCapabilities = {
-							com.apple.Push = {
-								enabled = 1;
-							};
-						};
+					C4BFC4291C8A41140052F9A9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = YY7MR8VR5W;
+					};
+					C4BFC43D1C8A41140052F9A9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = YY7MR8VR5W;
+						TestTargetID = C4BFC4291C8A41140052F9A9;
+					};
+					C4BFC4481C8A41140052F9A9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = YY7MR8VR5W;
+						TestTargetID = C4BFC4291C8A41140052F9A9;
 					};
 				};
 			};
-			buildConfigurationList = 5E34811D1C83E24F00B6812B /* Build configuration list for PBXProject "MessageMe" */;
+			buildConfigurationList = C4BFC4251C8A41140052F9A9 /* Build configuration list for PBXProject "MessageMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,104 +215,99 @@
 				en,
 				Base,
 			);
-			mainGroup = 5E3481191C83E24F00B6812B;
-			productRefGroup = 5E3481231C83E24F00B6812B /* Products */;
+			mainGroup = C4BFC4211C8A41140052F9A9;
+			productRefGroup = C4BFC42B1C8A41140052F9A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E3481211C83E24F00B6812B /* MessageMe */,
+				C4BFC4291C8A41140052F9A9 /* MessageMe */,
+				C4BFC43D1C8A41140052F9A9 /* MessageMeTests */,
+				C4BFC4481C8A41140052F9A9 /* MessageMeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5E3481201C83E24F00B6812B /* Resources */ = {
+		C4BFC4281C8A41140052F9A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1F13CD1C845F7E00F64451 /* PushTone.caf in Resources */,
-				5E3481301C83E24F00B6812B /* LaunchScreen.storyboard in Resources */,
-				5E34812D1C83E24F00B6812B /* Assets.xcassets in Resources */,
-				5E34812B1C83E24F00B6812B /* Main.storyboard in Resources */,
+				C4BFC4381C8A41140052F9A9 /* LaunchScreen.storyboard in Resources */,
+				C4BFC4351C8A41140052F9A9 /* Assets.xcassets in Resources */,
+				C4BFC4331C8A41140052F9A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BFC43C1C8A41140052F9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BFC4471C8A41140052F9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		36FCBD511F8E1F4340A3EB19 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		91AE2403325E4F431C75ABA6 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8AABA93B7A6E5E4678F3BEA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		5E34811E1C83E24F00B6812B /* Sources */ = {
+		C4BFC4261C8A41140052F9A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3481281C83E24F00B6812B /* ViewController.swift in Sources */,
-				5E3481261C83E24F00B6812B /* AppDelegate.swift in Sources */,
-				5E1F13C81C83EFB500F64451 /* MessageTableViewCell.swift in Sources */,
+				C4BFC4301C8A41140052F9A9 /* ViewController.swift in Sources */,
+				C4BFC42E1C8A41140052F9A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BFC43A1C8A41140052F9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BFC4431C8A41140052F9A9 /* MessageMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BFC4451C8A41140052F9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BFC44E1C8A41140052F9A9 /* MessageMeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C4BFC4401C8A41140052F9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BFC4291C8A41140052F9A9 /* MessageMe */;
+			targetProxy = C4BFC43F1C8A41140052F9A9 /* PBXContainerItemProxy */;
+		};
+		C4BFC44B1C8A41140052F9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BFC4291C8A41140052F9A9 /* MessageMe */;
+			targetProxy = C4BFC44A1C8A41140052F9A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		5E3481291C83E24F00B6812B /* Main.storyboard */ = {
+		C4BFC4311C8A41140052F9A9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5E34812A1C83E24F00B6812B /* Base */,
+				C4BFC4321C8A41140052F9A9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5E34812E1C83E24F00B6812B /* LaunchScreen.storyboard */ = {
+		C4BFC4361C8A41140052F9A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5E34812F1C83E24F00B6812B /* Base */,
+				C4BFC4371C8A41140052F9A9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -259,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5E3481321C83E24F00B6812B /* Debug */ = {
+		C4BFC4501C8A41140052F9A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -304,7 +360,7 @@
 			};
 			name = Debug;
 		};
-		5E3481331C83E24F00B6812B /* Release */ = {
+		C4BFC4511C8A41140052F9A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,58 +398,113 @@
 			};
 			name = Release;
 		};
-		5E3481351C83E24F00B6812B /* Debug */ = {
+		C4BFC4531C8A41140052F9A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960ECE61A1C9C349D8F34135 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MessageMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mywebnapp.MessageMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		5E3481361C83E24F00B6812B /* Release */ = {
+		C4BFC4541C8A41140052F9A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82361FD3A9EA0EC2B29685A9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MessageMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mywebnapp.MessageMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C4BFC4561C8A41140052F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MessageMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywebnapp.MessageMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessageMe.app/MessageMe";
+			};
+			name = Debug;
+		};
+		C4BFC4571C8A41140052F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MessageMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywebnapp.MessageMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessageMe.app/MessageMe";
+			};
+			name = Release;
+		};
+		C4BFC4591C8A41140052F9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MessageMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywebnapp.MessageMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MessageMe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4BFC45A1C8A41140052F9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MessageMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywebnapp.MessageMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MessageMe;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E34811D1C83E24F00B6812B /* Build configuration list for PBXProject "MessageMe" */ = {
+		C4BFC4251C8A41140052F9A9 /* Build configuration list for PBXProject "MessageMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E3481321C83E24F00B6812B /* Debug */,
-				5E3481331C83E24F00B6812B /* Release */,
+				C4BFC4501C8A41140052F9A9 /* Debug */,
+				C4BFC4511C8A41140052F9A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3481341C83E24F00B6812B /* Build configuration list for PBXNativeTarget "MessageMe" */ = {
+		C4BFC4521C8A41140052F9A9 /* Build configuration list for PBXNativeTarget "MessageMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E3481351C83E24F00B6812B /* Debug */,
-				5E3481361C83E24F00B6812B /* Release */,
+				C4BFC4531C8A41140052F9A9 /* Debug */,
+				C4BFC4541C8A41140052F9A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		C4BFC4551C8A41140052F9A9 /* Build configuration list for PBXNativeTarget "MessageMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BFC4561C8A41140052F9A9 /* Debug */,
+				C4BFC4571C8A41140052F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4BFC4581C8A41140052F9A9 /* Build configuration list for PBXNativeTarget "MessageMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BFC4591C8A41140052F9A9 /* Debug */,
+				C4BFC45A1C8A41140052F9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5E34811A1C83E24F00B6812B /* Project object */;
+	rootObject = C4BFC4221C8A41140052F9A9 /* Project object */;
 }
